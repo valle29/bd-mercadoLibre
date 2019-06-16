@@ -24,24 +24,18 @@
 </template>
 
 <script>
-import { mdbContainer, mdbRow, mdbCol, mdbInput, mdbTextarea, mdbBtn, mdbIcon, mdbCard, mdbCardBody, mdbModal, mdbModalHeader, mdbModalBody, mdbModalFooter } from 'mdbvue';
+import { mdbContainer, mdbCol, mdbInput, mdbBtn, mdbIcon, mdbCard, mdbCardBody} from 'mdbvue';
 
 export default {
   name: 'FormsPage',
   components: {
     mdbContainer,
-    mdbRow,
     mdbCol,
     mdbInput,
-    mdbTextarea,
     mdbBtn,
     mdbIcon,
     mdbCard,
-    mdbCardBody,
-    mdbModal,
-    mdbModalHeader,
-    mdbModalBody,
-    mdbModalFooter
+    mdbCardBody
   },
   data() {
     return {

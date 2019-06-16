@@ -7,7 +7,7 @@
       <mdb-navbar-toggler>
         <mdb-navbar-nav right>
           <mdb-nav-item exact to="/"><strong class="text-color-black">Inicio</strong></mdb-nav-item>
-          <mdb-nav-item to="/css"><strong class="text-color-black">Productos</strong></mdb-nav-item>
+          <mdb-nav-item to="/products"><strong class="text-color-black">Productos</strong></mdb-nav-item>
           <mdb-btn outline="default" darkWaves size="sm">Logout</mdb-btn>
         </mdb-navbar-nav>
       </mdb-navbar-toggler>

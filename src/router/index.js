@@ -4,6 +4,7 @@ import Router from 'vue-router';
 //PAGES
 import LoginPage from '../components/LoginPage';
 import HomePage from '../components/LoginPage';
+import Products from '../components/ProductsTable'
 
 // CATEGORIES
 import CSSPage from '../docs/categories/CSSPage';
@@ -24,6 +25,10 @@ export default new Router({
         path: '/login',
         name: 'Login',
         component: LoginPage
+    },{
+      path: '/products',
+      name: 'Products',
+      component: Products
     },
 
     // CATEGORIES
