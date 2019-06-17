@@ -1,8 +1,7 @@
 <template class="mt-5">
     <div class="mt-5" style="margin-top: -25px">
         <mdb-container class="free-bird mt-5">
-            <mdb-col md="6" class="mx-auto">
-                <mdb-jumbotron class="pt-4">
+            <mdb-col md="5" class="mx-auto">
                     <mdb-card>
                         <mdb-card-body>
                             <form>
@@ -17,7 +16,6 @@
                             </form>
                         </mdb-card-body>
                     </mdb-card>
-                </mdb-jumbotron>
             </mdb-col>
         </mdb-container>
     </div>

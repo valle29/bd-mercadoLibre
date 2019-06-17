@@ -9,6 +9,9 @@ import Products from '../components/ProductsTable'
 // CATEGORIES
 import CSSPage from '../docs/categories/CSSPage';
 
+//EXAMPLE
+import HelloWorld from '../components/HelloWorld';
+
 
 
 Vue.use(Router);
@@ -36,6 +39,13 @@ export default new Router({
       path: '/css',
       name: 'CSSPage',
       component: CSSPage
+    },
+
+    //EXAMPLE
+    {
+      path: '/hello',
+      name: 'Example',
+      component: HelloWorld
     }
   ]
 });
